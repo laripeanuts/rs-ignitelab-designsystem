@@ -48,19 +48,15 @@ Desenvolver um *design system* com base em um *style guide* do Figma, utilizando
 
 ### Storybook · [DEMO](https://ignitelab-figma-ao-codigo.vercel.app/)
 
-<!-- <p align="center">
-  <img src="./.github/mobile-1.jpg" alt="start" height="250">
-  <img src="./.github/mobile-2.jpg" alt="start" height="250">
-  <img src="./.github/mobile-3.jpg" alt="start" height="250">
-  <img src="./.github/mobile-4.jpg" alt="start" height="250">
-</p> -->
+<p align="center">
+  <img src="./.github/storybook-01.png" alt="start" width="400">
+</p>
 
 ### Web
-<!-- 
+
 <p align="center">
-  <img src="./.github/server-1.png" alt="start" height="150">
-  <img src="./.github/server-2.png" alt="start" height="150">
-</p> -->
+  <img src="./.github/web-01.png" alt="start" width="400">
+</p>
 
 ## 💻 Feito com
 
