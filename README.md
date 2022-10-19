@@ -14,7 +14,7 @@
 <h4>
     <a href="https://www.figma.com/file/6xrdqvBpvBhY0IXPyDkspc/Design-System?node-id=0%3A1" target="_blank" >Figma Style Guide</a>
   <span> · </span>
-    <a href="">Storybook Deploy</a>
+    <a href="https://laripeanuts.github.io/rs-ignitelab-designsystem/">Storybook Deploy</a>
 </h4>
 </div>
 
@@ -46,7 +46,7 @@ Desenvolver um *design system* com base em um *style guide* do Figma, utilizando
   <img src="./.github/figma-03.png" alt="start" width="200">
 </p>
 
-### Storybook · [DEMO](https://ignitelab-figma-ao-codigo.vercel.app/)
+### Storybook · [DEMO](https://laripeanuts.github.io/rs-ignitelab-designsystem/)
 
 <p align="center">
   <img src="./.github/storybook-01.png" alt="start" width="400">
