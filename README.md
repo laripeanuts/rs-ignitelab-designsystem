@@ -35,6 +35,8 @@ Desenvolver um *design system* com base em um *style guide* do Figma, utilizando
 - [x] Desenvolver Style Guide no Figma
 - [x] Reproduzir Style Guide no Storybook
 - [x] Reproduzir Tela de Login no React com Typescript
+- [x] Criar CI do deploy do Storybook
+- [x] Fazer deploy do Storybook no Github Pages
 
 ## 🥳 Aplicação 
 
@@ -67,7 +69,8 @@ Desenvolver um *design system* com base em um *style guide* do Figma, utilizando
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 [![TAILWIND](https://img.shields.io/badge/Tailwind-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![STORYBOOK](https://img.shields.io/badge/Storybook-FF4785?style=for-the-badge&logo=storybook&logoColor=white)](https://storybook.js.org/)
-
+[![CI-CD](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)](https://github.com/features/actions)
+[![GITHUB-PAGES](https://img.shields.io/badge/GitHub%20Pages-181717?style=for-the-badge&logo=github&logoColor=white)](https://pages.github.com/)
 ## 🛠️ Ferramentas
 
 [![FIGMA](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/)
