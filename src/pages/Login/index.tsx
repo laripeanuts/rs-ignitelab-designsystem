@@ -1,4 +1,5 @@
 import { Envelope, Lock } from 'phosphor-react';
+import { FormEvent, useState } from "react";
 import { Button } from '../../components/Button';
 import { Checkbox } from '../../components/Checkbox';
 import { Heading } from '../../components/Heading';
@@ -6,7 +7,21 @@ import { Text } from '../../components/Text';
 import { TextInput } from '../../components/TextInput';
 import { Logo } from '../../Logo';
 
-export function Login() {
+export const Login = () => {
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+
+  const handleLogin = (event: FormEvent) => {
+    event.preventDefault();
+
+    setIsLoggedIn(true);
+  };
+
+  const renderLoggedMsg = () => {
+    if (isLoggedIn) {
+      return <Text className="gray-800 mt-2" size="sm">Login Realizado</Text>;
+    }
+  };
+
   return (
     <div className="w-full h-full bg-gray-900 p-4 flex flex-col items-center justify-center text-gray-100">
       <header className="flex flex-col items-center">
@@ -49,9 +64,15 @@ export function Login() {
           <Text size="sm" className="text-gray-200">Lembrar de mim por 30 dias</Text>
         </label>
 
-        <Button type="submit" className="mt-4">Entrar na plataforma</Button>
+        <Button
+          type="submit"
+          className="mt-4"
+          onClick={handleLogin}
+        >
+          Entrar na plataforma
+        </Button>
       </form>
-
+      {renderLoggedMsg()}
       <footer className="flex flex-col items-center gap-4 mt-8">
         <Text asChild size="sm">
           <a href="" className="text-gray-400 underline hover:text-gray-200">Esqueceu sua senha?</a>
